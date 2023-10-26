@@ -1,6 +1,7 @@
-name: Sync Repo
+name: Sugon Sync Repo
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "sugon/aomp-dev" ]
 
